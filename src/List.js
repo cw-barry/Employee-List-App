@@ -9,6 +9,7 @@ const List = ({ people }) => {
           name: { first, last },
           dob: { age },
           picture: { large: image },
+          email,
         } = person;
         const name = first + ' ' + last;
         return (
@@ -16,6 +17,7 @@ const List = ({ people }) => {
             <img src={image} alt={name} />
             <div>
               <h4>{name}</h4>
+              <p>{email}</p>
               <p>{age} years</p>
             </div>
           </article>

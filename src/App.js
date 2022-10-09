@@ -6,9 +6,9 @@ function App() {
   return (
     <main>
       <section className="container">
-        <h3>{people.length} Employee List</h3>
+        <h3>Employee List</h3>
+        <h5>({people.length} Employees)</h5>
         <List people={people} />
-        <button onClick={() => setPeople([])}>clear all</button>
       </section>
     </main>
   );

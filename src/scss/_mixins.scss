@@ -78,7 +78,7 @@ main {
 
 .container {
   width: 90vw;
-  margin: 5rem 0;
+  margin-top: 5rem;
   max-width: $fixed-width;
   background: $clr-white;
   border-radius: $radius;
@@ -88,7 +88,7 @@ main {
 .container h3 {
   font-weight: normal;
   text-transform: none;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 .person {
   display: grid;

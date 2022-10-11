@@ -112,11 +112,11 @@ main {
 }
 .container button {
   color: $clr-black;
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 40%;
   border-color: transparent;
   background: $clr-blue;
-  margin: 2rem auto 0 auto;
+  margin: 2rem 1rem 0 1rem;
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem 0;
